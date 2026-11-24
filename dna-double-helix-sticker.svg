@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-labelledby="dna-title dna-desc" data-real-diameter-m="2e-9" data-subject-diameter="90" data-axial-length="schematic">
+  <title id="dna-title">DNA 双螺旋</title>
+  <desc id="dna-desc">按参考图绘制的 DNA 示意片段，黄色糖磷酸骨架绕成双螺旋，横向连接绿紫相配的 A-T 碱基和粉蓝相配的 C-G 碱基。外径按 2 纳米标定，片段轴向长度为示意。</desc>
+  <defs>
+    <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.35" fill="#04121a"/></pattern>
+    <g id="backbones" fill="none">
+      <path d="M60 29C60 46.75 140 46.75 140 64.5"/>
+      <path d="M60 64.5C60 82.25 140 82.25 140 100"/>
+      <path d="M60 100C60 117.75 140 117.75 140 135.5"/>
+      <path d="M60 135.5C60 153.25 140 153.25 140 171"/>
+      <path d="M140 29C140 46.75 60 46.75 60 64.5"/>
+      <path d="M140 64.5C140 82.25 60 82.25 60 100"/>
+      <path d="M140 100C140 117.75 60 117.75 60 135.5"/>
+      <path d="M140 135.5C140 153.25 60 153.25 60 171"/>
+    </g>
+    <g id="rungs" fill="none">
+      <path d="M63.18 34.68H136.82"/>
+      <path d="M76.28 40.83H123.72"/>
+      <path d="M76.28 52.67H123.72"/>
+      <path d="M63.18 58.82H136.82"/>
+      <path d="M63.18 70.18H136.82"/>
+      <path d="M76.28 76.33H123.72"/>
+      <path d="M76.28 88.17H123.72"/>
+      <path d="M63.18 94.32H136.82"/>
+      <path d="M63.18 105.68H136.82"/>
+      <path d="M76.28 111.83H123.72"/>
+      <path d="M76.28 123.67H123.72"/>
+      <path d="M63.18 129.82H136.82"/>
+      <path d="M63.18 141.18H136.82"/>
+      <path d="M76.28 147.33H123.72"/>
+      <path d="M76.28 159.17H123.72"/>
+      <path d="M63.18 165.32H136.82"/>
+    </g>
+  </defs>
+
+  <g transform="translate(4 5)" fill="none" stroke="#071a26" stroke-linecap="round" opacity=".5">
+    <use href="#backbones" stroke-width="14"/>
+    <use href="#rungs" stroke-width="10"/>
+  </g>
+  <g fill="none" stroke="#f1eee7" stroke-linecap="round">
+    <use href="#rungs" stroke-width="9"/>
+    <use href="#backbones" stroke-width="14"/>
+  </g>
+  <use href="#backbones" fill="none" stroke="#a48b58" stroke-width="10" stroke-linecap="round"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M63.18 34.68H136.82" stroke="#53616b" stroke-width="6.5"/>
+    <path d="M63.18 34.68H100" stroke="#8ed0a6" stroke-width="4"/>
+    <path d="M100 34.68H136.82" stroke="#be82c4" stroke-width="4"/>
+    <path d="M76.28 40.83H123.72" stroke="#53616b" stroke-width="6.5"/>
+    <path d="M76.28 40.83H100" stroke="#d5829e" stroke-width="4"/>
+    <path d="M100 40.83H123.72" stroke="#8a93d8" stroke-width="4"/>
+    <path d="M76.28 52.67H123.72" stroke="#53616b" stroke-width="6.5"/>
+    <path d="M76.28 52.67H100" stroke="#be82c4" stroke-width="4"/>
+    <path d="M100 52.67H123.72" stroke="#8ed0a6" stroke-width="4"/>
+    <path d="M63.18 58.82H136.82" stroke="#53616b" stroke-width="6.5"/>
+    <path d="M63.18 58.82H100" stroke="#8a93d8" stroke-width="4"/>
+    <path d="M100 58.82H136.82" stroke="#d5829e" stroke-width="4"/>
+    <path d="M63.18 70.18H136.82" stroke="#53616b" stroke-width="6.5"/>
+    <path d="M63.18 70.18H100" stroke="#d5829e" stroke-width="4"/>
+    <path d="M100 70.18H136.82" stroke="#8a93d8" stroke-width="4"/>
+    <path d="M76.28 76.33H123.72" stroke="#53616b" stroke-width="6.5"/>
+    <path d="M76.28 76.33H100" stroke="#8ed0a6" stroke-width="4"/>
+    <path d="M100 76.33H123.72" stroke="#be82c4" stroke-width="4"/>
+    <path d="M76.28 88.17H123.72" stroke="#53616b" stroke-width="6.5"/>
+    <path d="M76.28 88.17H100" stroke="#8a93d8" stroke-width="4"/>
+    <path d="M100 88.17H123.72" stroke="#d5829e" stroke-width="4"/>
+    <path d="M63.18 94.32H136.82" stroke="#53616b" stroke-width="6.5"/>
+    <path d="M63.18 94.32H100" stroke="#be82c4" stroke-width="4"/>
+    <path d="M100 94.32H136.82" stroke="#8ed0a6" stroke-width="4"/>
+    <path d="M63.18 105.68H136.82" stroke="#53616b" stroke-width="6.5"/>
+    <path d="M63.18 105.68H100" stroke="#8ed0a6" stroke-width="4"/>
+    <path d="M100 105.68H136.82" stroke="#be82c4" stroke-width="4"/>
+    <path d="M76.28 111.83H123.72" stroke="#53616b" stroke-width="6.5"/>
+    <path d="M76.28 111.83H100" stroke="#d5829e" stroke-width="4"/>
+    <path d="M100 111.83H123.72" stroke="#8a93d8" stroke-width="4"/>
+    <path d="M76.28 123.67H123.72" stroke="#53616b" stroke-width="6.5"/>
+    <path d="M76.28 123.67H100" stroke="#be82c4" stroke-width="4"/>
+    <path d="M100 123.67H123.72" stroke="#8ed0a6" stroke-width="4"/>
+    <path d="M63.18 129.82H136.82" stroke="#53616b" stroke-width="6.5"/>
+    <path d="M63.18 129.82H100" stroke="#8a93d8" stroke-width="4"/>
+    <path d="M100 129.82H136.82" stroke="#d5829e" stroke-width="4"/>
+    <path d="M63.18 141.18H136.82" stroke="#53616b" stroke-width="6.5"/>
+    <path d="M63.18 141.18H100" stroke="#d5829e" stroke-width="4"/>
+    <path d="M100 141.18H136.82" stroke="#8a93d8" stroke-width="4"/>
+    <path d="M76.28 147.33H123.72" stroke="#53616b" stroke-width="6.5"/>
+    <path d="M76.28 147.33H100" stroke="#8ed0a6" stroke-width="4"/>
+    <path d="M100 147.33H123.72" stroke="#be82c4" stroke-width="4"/>
+    <path d="M76.28 159.17H123.72" stroke="#53616b" stroke-width="6.5"/>
+    <path d="M76.28 159.17H100" stroke="#8a93d8" stroke-width="4"/>
+    <path d="M100 159.17H123.72" stroke="#d5829e" stroke-width="4"/>
+    <path d="M63.18 165.32H136.82" stroke="#53616b" stroke-width="6.5"/>
+    <path d="M63.18 165.32H100" stroke="#be82c4" stroke-width="4"/>
+    <path d="M100 165.32H136.82" stroke="#8ed0a6" stroke-width="4"/>
+  </g>
+  <g fill="none" stroke="#ebca7d" stroke-width="10" stroke-linecap="round">
+    <path d="M60 29C60 46.75 140 46.75 140 64.5"/>
+    <path d="M60 64.5C60 82.25 140 82.25 140 100"/>
+    <path d="M60 100C60 117.75 140 117.75 140 135.5"/>
+    <path d="M60 135.5C60 153.25 140 153.25 140 171"/>
+  </g>
+  <g fill="none" stroke="url(#dots)" stroke-width="5.5" stroke-linecap="round" opacity=".25">
+    <path d="M122 121C132 124 140 127 140 135.5"/>
+    <path d="M122 156C132 159 140 163 140 171"/>
+  </g>
+  <path d="M61 31C62 40 76 44 87 47" fill="none" stroke="#fff0bd" stroke-width="1.7" stroke-linecap="round"/>
+</svg>

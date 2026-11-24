@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-labelledby="cctv-title cctv-desc" data-real-height-m="234" data-subject-height="304">
+  <title id="cctv-title">央视总部大楼</title>
+  <desc id="cctv-desc">青绿色的折面建筑由两座斜塔和顶部连桥围成，中间镂空，玻璃幕墙带有斜向交叉网格。</desc>
+  <defs>
+    <path id="building" fill-rule="evenodd" d="M71 335 101 101 196 48 290 117 329 331 288 343 205 325 108 352Z M160 291 248 291 223 161 197 153 174 160Z"/>
+    <clipPath id="building-clip"><path clip-rule="evenodd" d="M71 335 101 101 196 48 290 117 329 331 288 343 205 325 108 352Z M160 291 248 291 223 161 197 153 174 160Z"/></clipPath>
+    <pattern id="diagrid" width="16" height="26" patternUnits="userSpaceOnUse">
+      <path d="M-8 13 8-13M0 26 16 0M8 39 24 13M-8 13 8 39M0 0 16 26M8-13 24 13" fill="none" stroke="#214e59" stroke-width=".9"/>
+    </pattern>
+    <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#04121a"/>
+    </pattern>
+  </defs>
+
+  <use href="#building" transform="translate(6 8)" fill="#071a26" opacity=".5"/>
+  <use href="#building" fill="#77b8b4" stroke="#f1eee7" stroke-width="6" stroke-linejoin="round"/>
+  <g clip-path="url(#building-clip)">
+    <path d="M196 48 290 117 329 331 288 343 253 145 196 128Z" fill="#4e8293"/>
+    <path d="M132 153 196 128 253 145 223 161 197 153 174 160Z" fill="#3a6474"/>
+    <path d="M132 153 174 160 160 291 205 290 205 325 108 352Z" fill="#4e8293"/>
+    <path d="M253 145 288 343 205 325 205 290 248 291 223 161Z" fill="#77b8b4"/>
+    <path d="M255 151C275 180 289 245 285 287Q283 309 275 340L288 343 329 331 294 143Z" fill="url(#dots)" opacity=".26"/>
+
+    <g fill="url(#diagrid)" opacity=".68">
+      <path d="M71 335 101 101 196 48 196 128 132 153 108 352Z"/>
+      <path d="M196 48 290 117 329 331 288 343 253 145 196 128Z"/>
+      <path d="M132 153 174 160 160 291 205 290 205 325 108 352Z"/>
+      <path d="M253 145 288 343 205 325 205 290 248 291 223 161Z"/>
+    </g>
+    <path d="M89 201 193 146M83 248 132 220M138 107 165 150M206 82 249 148M229 150 295 125M257 192 310 237M273 274 324 312M109 332 160 266M205 300 280 326" fill="none" stroke="#285561" stroke-width="2" opacity=".64"/>
+    <path d="M94 157 186 102M274 191 304 211" fill="none" stroke="#cee4d9" stroke-width="2.4" opacity=".78"/>
+    <path d="M108 352 132 153 196 128 253 145 288 343M196 48V128M205 291V325" fill="none" stroke="#315c66" stroke-width="2.2" stroke-linejoin="round"/>
+  </g>
+  <use href="#building" fill="none" stroke="#f1eee7" stroke-width="6" stroke-linejoin="round"/>
+</svg>

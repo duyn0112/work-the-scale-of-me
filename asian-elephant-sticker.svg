@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-labelledby="elephant-title elephant-desc" data-real-shoulder-height-m="2.75" data-subject-shoulder-height="188">
+  <title id="elephant-title">亚洲象</title>
+  <desc id="elephant-desc">成年雄性亚洲象侧面示意。它有拱背、双隆起头顶、小而圆的耳朵和向下卷起的象鼻。比例尺以肩高 2.75 米标定。</desc>
+  <defs>
+    <path id="elephant" d="M76 178C76 144 107 119 151 116C186 112 217 119 235 132C238 115 248 104 260 104Q271 95 281 102Q293 99 300 111C309 127 309 149 311 171L319 240Q322 257 331 253Q340 250 334 241L330 234Q342 231 346 241C354 261 343 279 326 278C307 277 301 261 299 243L289 193Q285 185 279 184L275 218 278 281 281 312Q280 320 269 320H248Q238 318 239 308L240 255Q220 263 198 259L196 307Q196 318 186 320H164Q153 318 156 306L164 252Q141 255 120 245L117 307Q117 320 105 320H83Q72 319 76 308L83 263 80 220Q70 208 70 193L61 206 58 235Q57 246 50 252L48 248Q52 242 51 231L53 204Q55 191 68 182Z"/>
+    <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.35" fill="#04121a"/>
+    </pattern>
+  </defs>
+
+  <use href="#elephant" transform="translate(6 8)" fill="#071a26" opacity=".5"/>
+  <use href="#elephant" fill="#979d9b" stroke="#f1eee7" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M133 234 164 237 156 306Q153 318 164 320H186Q196 318 196 307L198 259Q169 265 146 254Z" fill="#768683"/>
+  <path d="M218 235Q245 232 254 220L267 257 265 304 269 320H248Q238 318 239 308L240 255Z" fill="#768683"/>
+  <path d="M76 178C76 144 107 119 151 116Q197 113 227 129C205 124 176 125 155 129C111 136 92 157 89 190Q87 218 102 245L120 245 117 307Q117 320 105 320H83Q72 319 76 308L83 263 80 220Q70 208 70 193Z" fill="#a6aba7"/>
+  <path d="M239 134C224 132 205 143 202 159C196 179 207 201 226 207C236 202 244 185 246 166C249 151 248 141 239 134Z" fill="#a9afaa" stroke="#6c7c7a" stroke-width="2.1" stroke-linejoin="round"/>
+  <path d="M233 144C219 150 217 175 224 188M242 160 235 180" fill="none" stroke="#879591" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M280 175Q295 187 315 180Q309 195 290 193L277 186Z" fill="#e8ddbd" stroke="#697d7a" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M302 127Q309 147 311 171L319 240Q322 257 331 253Q340 250 334 241L330 234Q342 231 346 241C354 261 343 279 326 278C307 277 301 261 299 243L289 193Z" fill="#879592"/>
+  <path d="M305 183 314 242Q318 271 332 269Q344 266 345 251L347 249Q351 272 331 278C311 282 304 266 301 249Z" fill="url(#dots)" opacity=".28"/>
+  <path d="M299 206 311 204M302 218 313 217M304 231 315 231M309 245 318 244M314 257 321 253" stroke="#647c78" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M278 140Q285 137 290 141" fill="none" stroke="#596d6a" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="284.5" cy="144.5" rx="3" ry="2.7" fill="#263e41"/>
+  <circle cx="285.2" cy="143.6" r=".85" fill="#f1eee7"/>
+  <path d="M250 120Q256 113 262 113M257 126 266 120M97 233 95 289M166 267 162 292M247 270 247 300" fill="none" stroke="#6f8480" stroke-width="1.8" stroke-linecap="round"/>
+  <g fill="#c4c9bc" stroke="#6f8380" stroke-width="1">
+    <path d="M81 314Q84 305 88 314V318H80Z M91 315Q94 306 98 314V318H90Z M102 315Q105 306 109 314V318H101Z"/>
+    <path d="M162 315Q165 307 169 315V318H161Z M173 315Q177 307 181 315V318H172Z"/>
+    <path d="M245 315Q248 307 252 315V318H244Z M256 315Q260 307 264 315V318H255Z M269 315Q272 307 276 315L277 318H268Z"/>
+  </g>
+  <path d="M107 139Q124 131 141 131" fill="none" stroke="#d0d2c6" stroke-width="2.9" stroke-linecap="round"/>
+  <use href="#elephant" fill="none" stroke="#f1eee7" stroke-width="6" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-labelledby="stadium-title stadium-desc" data-real-width-m="300" data-subject-width="304">
+  <title id="stadium-title">大连梭鱼湾足球场</title>
+  <desc id="stadium-desc">按参考照片绘制的梭鱼湾球场正面外观。蓝色斜纹幕墙包裹上下两层椭圆形场馆，白色环带分隔两层，基座包含入口和台阶。两端宽度按 300 米标定。</desc>
+  <defs>
+    <path id="stadium" d="M48 166C48 121 352 121 352 166L342 205 349 212 346 226 340 239 344 252 330 268H70L56 252 60 239 54 226 51 212 58 205Z"/>
+    <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.35" fill="#04121a"/>
+    </pattern>
+  </defs>
+
+  <use href="#stadium" transform="translate(6 8)" fill="#071a26" opacity=".5"/>
+  <use href="#stadium" fill="#8ab9bf" stroke="#f1eee7" stroke-width="5.5" stroke-linejoin="round"/>
+  <path d="M48 166C48 121 352 121 352 166Q200 202 48 166Z" fill="#6fb6ca"/>
+  <path d="M48 166Q200 202 352 166L342 205Q200 239 58 205Z" fill="#1b6089"/>
+  <path d="M64 172Q200 206 340 171L336 190Q202 220 63 192Z" fill="#267fa4"/>
+  <g fill="none" stroke="#58b0c3" stroke-width="1.25" opacity=".83">
+    <path d="M57 181 81 174M63 194 112 181M78 209 146 186M101 214 177 189M126 219 210 190M156 222 245 188M186 224 274 184M216 223 306 177M246 221 336 169M275 217 348 176M302 211 345 188M329 205 342 198"/>
+  </g>
+  <g fill="#3396b5">
+    <path d="M84 179 95 181 74 193 63 190Z M120 186 131 188 104 202 93 199Z M172 190H183L145 213 136 212Z M222 190 234 189 191 218 179 219Z M272 186 284 183 238 218 225 220Z M318 175 329 172 282 213 267 217Z"/>
+  </g>
+  <path d="M58 205Q200 239 342 205L349 212Q200 250 51 212Z" fill="#dbe3d9"/>
+  <path d="M54 216Q200 249 346 216L340 239Q200 270 60 239Z" fill="#226c92"/>
+  <g fill="none" stroke="#62aeca" stroke-width="1.2">
+    <path d="M63 230 83 223M81 240 111 229M105 244 142 235M136 249 174 239M168 252 208 240M199 253 244 238M232 252 277 231M263 248 310 222M296 244 338 220M325 239 342 231"/>
+  </g>
+  <path d="M60 239Q200 270 340 239L344 252Q200 279 56 252Z" fill="#e0e3d5"/>
+  <path d="M64 251Q200 275 336 251L330 268H70Z" fill="#b8c0b5"/>
+  <path d="M89 256 116 259V267H87Z M131 261 156 263V268H130Z M244 263 269 260V268H244Z M284 259 309 255 312 267H284Z" fill="#254753"/>
+  <path d="M165 265H236L249 268H151Z" fill="#e3ddc6"/>
+  <path d="M160 268 167 264M176 268 182 264M192 268 197 264M208 268 212 264M225 268 227 264M239 268 242 265" stroke="#8d9b97" stroke-width="1"/>
+  <path d="M327 187 344 179 342 205 349 212 346 226 340 239 344 252 330 268H306Q336 238 327 187Z" fill="url(#dots)" opacity=".26"/>
+  <path d="M77 149Q118 137 163 137" fill="none" stroke="#c6e2df" stroke-width="2.7" stroke-linecap="round"/>
+  <use href="#stadium" fill="none" stroke="#f1eee7" stroke-width="5.5" stroke-linejoin="round"/>
+</svg>

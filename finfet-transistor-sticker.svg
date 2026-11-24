@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-labelledby="art-title art-desc" data-real-feature-size-m="1e-8" data-reference-units="152">
+  <title id="art-title">FinFET 晶体管</title>
+  <desc id="art-desc">橙色立体栅极横跨三条青绿色硅鳍，底部为深蓝色衬底。</desc>
+  <defs>
+    <path id="silhouette" d="M24 112 47 99 47 89 75 72 84 72 97 64 108 64 123 55 139 63 139 97 176 115 175 141 106 173 24 135Z"/>
+    <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.35" fill="#04121a"/></pattern>
+    <g id="fin">
+      <path d="M0 0 60 28 54 33 -6 5Z" fill="#83c8be"/>
+      <path d="M-6 5 54 33 54 46 -6 18Z" fill="#347f83"/>
+      <path d="M54 33 60 28 60 41 54 46Z" fill="#225662"/>
+    </g>
+  </defs>
+  <use href="#silhouette" transform="translate(4 5)" fill="#071a26" opacity=".5"/>
+  <use href="#silhouette" fill="#476d96" stroke="#f1eee7" stroke-width="3.4" stroke-linejoin="round"/>
+  <path d="M24 112 94 79 176 115 106 151Z" fill="#638ab7"/>
+  <path d="M24 112 106 151 106 173 24 135Z" fill="#476d96"/>
+  <path d="M106 151 176 115 175 141 106 173Z" fill="#324c73"/>
+  <path d="M116 146 175 116 175 141 106 173Q114 161 116 146Z" fill="url(#dots)" opacity=".28"/>
+  <path d="M28 125 105 162 172 130" fill="none" stroke="#9cafd5" stroke-width="1.4" opacity=".75"/>
+  <use href="#fin" transform="translate(97 68)"/>
+  <use href="#fin" transform="translate(84 78)"/>
+  <use href="#fin" transform="translate(69 88)"/>
+  <path d="M123 55 139 63 84 95 68 88Z" fill="#f0bb79"/>
+  <path d="M68 88 84 95 84 126 68 118Z" fill="#b67249"/>
+  <path d="M84 95 139 63V95L84 126Z" fill="#d99159"/>
+  <path d="M84 95 139 63" stroke="#f8dea5" stroke-width="2.1" stroke-linecap="round"/>
+  <path d="M111 108 121 113M126 99 137 104M143 91 150 95" stroke="#2e6f76" stroke-width="1.35" stroke-linecap="round"/>
+  <use href="#silhouette" fill="none" stroke="#f1eee7" stroke-width="3.4" stroke-linejoin="round"/>
+</svg>

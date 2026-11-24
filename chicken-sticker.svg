@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-labelledby="chicken-title chicken-desc" data-real-length-m="0.7" data-subject-length="304" data-scale-reference="male-red-junglefowl">
+  <title id="chicken-title">鸡（公鸡示意）</title>
+  <desc id="chicken-desc">公鸡侧面示意，金褐色羽毛、红色鸡冠与肉垂、深色长尾羽和细长的足。以雄性红原鸡最长约 70 厘米的全长资料作为图示尺度。</desc>
+  <defs>
+    <path id="bird" d="M48 113C73 110 100 132 121 158C119 123 106 101 91 83C116 78 145 111 158 152C185 144 212 151 232 144C246 139 250 122 252 105C252 89 256 77 269 74L272 66Q276 60 281 69L288 61Q295 58 299 71L306 67Q315 64 314 78C325 86 329 99 329 110L352 121 330 130Q324 149 308 155C297 168 289 191 279 207C267 231 239 246 213 246C173 247 145 228 131 206Q113 204 98 218C100 199 104 184 110 175C92 151 71 127 48 113Z"/>
+    <path id="legs" d="M179 236 188 237 184 280 194 292 206 295 205 300 189 297 180 292 166 300 161 297 174 286 173 280Z M226 237 235 234 237 279 248 289 266 295 265 300 244 295 232 287 219 297 215 294 228 281Z"/>
+    <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.35" fill="#04121a"/>
+    </pattern>
+  </defs>
+
+  <g transform="translate(6 8)" fill="#071a26" opacity=".5">
+    <use href="#legs"/><use href="#bird"/>
+  </g>
+  <use href="#legs" fill="#c4a069" stroke="#f1eee7" stroke-width="5.4" stroke-linejoin="round"/>
+  <path d="M176 256 185 257M175 263 184 264M174 271 183 272M230 252 236 252M231 261 236 261M231 269 237 269" stroke="#96764e" stroke-width="1.3"/>
+  <use href="#bird" fill="#b9814e" stroke="#f1eee7" stroke-width="6" stroke-linejoin="round"/>
+
+  <path d="M48 113C73 110 100 132 121 158C119 123 106 101 91 83C116 78 145 111 158 152L174 176Q153 204 131 206Q113 204 98 218C100 199 104 184 110 175C92 151 71 127 48 113Z" fill="#304d4c"/>
+  <path d="M64 119C85 129 108 154 125 181M105 96C128 121 135 154 137 181M129 124Q145 150 149 172M112 194 126 191" fill="none" stroke="#65817a" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M134 200C159 178 183 165 211 169C238 174 256 194 249 213C238 230 212 239 189 233Q156 228 134 200Z" fill="#a46d48" stroke="#855d42" stroke-width="1.6"/>
+  <path d="M145 196Q177 184 203 190Q223 194 236 207M156 207Q187 199 213 210M173 218Q196 214 218 221" fill="none" stroke="#ce9b62" stroke-width="2.1" stroke-linecap="round"/>
+  <path d="M232 144C246 139 250 122 252 105C253 89 263 79 276 79L302 87 311 112 304 143Q286 173 275 199C260 183 241 175 222 174Z" fill="#d3a55d"/>
+  <g fill="none" stroke="#9a6b43" stroke-width="1.75" stroke-linecap="round">
+    <path d="M259 119 245 154M269 126 254 163M277 130 266 169M286 132 278 165M236 157 231 167"/>
+  </g>
+  <path d="M269 74 272 66Q276 60 281 69L288 61Q295 58 299 71L306 67Q315 64 314 78L316 86Q298 95 278 88Z" fill="#c75b53"/>
+  <path d="M276 87Q293 80 307 88C320 91 326 103 326 114Q324 130 311 137L293 127Q278 119 276 106Z" fill="#c99059"/>
+  <path d="M310 126Q323 127 318 142C315 153 304 155 301 145L303 133Q293 138 291 129Z" fill="#c75b53"/>
+  <path d="M329 110 352 121 330 130 319 122Z" fill="#d9bb79" stroke="#8d704d" stroke-width="1.3" stroke-linejoin="round"/>
+  <path d="M328 121 348 121" stroke="#8d704d" stroke-width="1.2"/>
+  <circle cx="306" cy="106" r="4.7" fill="#e6cf8d"/>
+  <circle cx="306.8" cy="106.2" r="2.4" fill="#263b40"/>
+  <circle cx="307.4" cy="105.6" r=".7" fill="#f1eee7"/>
+  <path d="M270 194Q260 230 225 239Q200 245 179 239C218 244 251 212 248 189Z" fill="url(#dots)" opacity=".28"/>
+  <path d="M268 95Q272 89 277 88" fill="none" stroke="#e7be7c" stroke-width="2.6" stroke-linecap="round"/>
+  <use href="#bird" fill="none" stroke="#f1eee7" stroke-width="6" stroke-linejoin="round"/>
+</svg>

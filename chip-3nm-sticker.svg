@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-labelledby="art-title art-desc" data-real-nominal-size-m="3e-9" data-reference-units="152">
+  <title id="art-title">3 nm 芯片制程</title>
+  <desc id="art-desc">带缺口的紫蓝色硅晶圆，中央芯片以青色光圈和网格突出。</desc>
+  <defs>
+    <path id="silhouette" d="M100 24A76 76 0 0 1 107 175.7L103.7 172H96.3L93 175.7A76 76 0 0 1 100 24Z"/>
+    <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.35" fill="#04121a"/></pattern>
+    <pattern id="wafer-grid" width="18" height="18" patternUnits="userSpaceOnUse" patternTransform="rotate(-8 100 100)">
+      <rect x="1" y="1" width="15" height="15" rx="1.4" fill="#3e4783" fill-opacity=".3" stroke="#b7b9f0" stroke-opacity=".59" stroke-width=".75"/>
+      <path d="M4 6H12V12H4Z" fill="none" stroke="#9a9ce2" stroke-opacity=".56" stroke-width=".6"/>
+    </pattern>
+  </defs>
+  <use href="#silhouette" transform="translate(4 5)" fill="#071a26" opacity=".5"/>
+  <use href="#silhouette" fill="#665eb4" stroke="#f1eee7" stroke-width="3.4" stroke-linejoin="round"/>
+  <path d="M32 66Q50 39 82 32L158 121Q144 147 118 158Z" fill="#7978c6" opacity=".66"/>
+  <use href="#silhouette" fill="url(#wafer-grid)"/>
+  <path d="M154 63C185 107 161 166 112 172L104 167Q145 154 152 117Q159 89 154 63Z" fill="url(#dots)" opacity=".28"/>
+  <path d="M40 77A64 64 0 0 1 78 42" fill="none" stroke="#c7c8ed" stroke-width="2.3" stroke-linecap="round"/>
+  <g transform="rotate(-8 100 100)">
+    <rect x="75" y="75" width="50" height="50" rx="8" fill="#86f3e8" opacity=".17"/>
+    <rect x="80" y="80" width="40" height="40" rx="5.5" fill="#2f687e" stroke="#80deda" stroke-width="2.5"/>
+    <rect x="85" y="85" width="30" height="30" rx="3.2" fill="#79ded5"/>
+    <path d="M92 92H108V108H92Z M92 100H108M100 92V108" fill="none" stroke="#245772" stroke-width="1.55"/>
+    <path d="M100 80V69M100 120V131M80 100H69M120 100H131" stroke="#b8fff0" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <use href="#silhouette" fill="none" stroke="#f1eee7" stroke-width="3.4" stroke-linejoin="round"/>
+</svg>
