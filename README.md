@@ -64,20 +64,10 @@ python -m http.server 8000 --bind 127.0.0.1
 .
 ├── index.html                 # 主应用，内嵌样式、脚本和场景素材
 ├── assets/                    # 独立素材文件、OSM 数据及早期来源记录
-├── earth-moon.html            # 地球、月球比例预览
-├── earth-options.html         # 地球视觉方案预览
-├── redraw-preview.html        # 六张重绘素材的比例预览
-├── sticker-objects.html       # 物品素材画廊（目前有两处缺失资源）
-├── earth-moon-scale.md        # 地月素材尺寸和导入说明
-├── redraw-scale.md            # 六张重绘素材的尺寸与假设
-├── sticker-objects-scale.md   # 物品尺寸与参考资料
 ├── 政区图尺寸数据.md          # 政区地理范围、投影限制与换算方法
 ├── README.md
 ├── LICENSE                    # 自有代码及配套文档的 MIT 许可证
-├── LICENSE_SCOPE.md           # MIT 适用范围及第三方素材例外
-├── ATTRIBUTIONS.md            # 图片、地图、数据来源及许可状态
-├── PUBLISHING.md              # GitHub 仓库提交与发布说明
-└── .gitignore
+└── LICENSE_SCOPE.md           # MIT 适用范围及第三方素材例外
 ```
 
 预览页通过相对路径读取 `assets/`，请保持目录结构。只运行主页面时可单独使用 `index.html`；分发时仍须一并提供适用的版权与许可说明。素材的在线来源集中在 [ATTRIBUTIONS.md](ATTRIBUTIONS.md)。
