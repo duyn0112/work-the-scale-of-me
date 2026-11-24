@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-labelledby="pingan-title pingan-desc" data-real-height-m="599.1" data-subject-height="304">
+  <title id="pingan-title">深圳平安金融中心</title>
+  <desc id="pingan-desc">蓝色塔楼有尖顶、竖向幕墙、斜撑和向两侧展开的基脚，两朵小云衬出塔楼高度。</desc>
+  <defs>
+    <path id="tower" d="M200 48 204 52 217 71 224 124Q222 177 222 222L221 274Q221 318 230 352H170Q179 318 179 274L178 222Q178 168 177 124L183 71 196 52Z"/>
+    <path id="cloud-left" d="M125 113C121 103 131 96 140 102C145 95 155 99 156 107C169 105 172 118 159 121C156 130 147 130 143 123C138 136 124 131 124 123C112 125 111 113 125 113Z"/>
+    <path id="cloud-right" d="M222 148C223 140 232 137 238 143C244 138 251 140 253 146C262 145 265 154 257 158C257 164 250 167 246 163C242 169 235 168 232 162C226 169 218 163 219 157Z"/>
+    <clipPath id="tower-clip"><use href="#tower"/></clipPath>
+    <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#04121a"/>
+    </pattern>
+  </defs>
+
+  <g transform="translate(5 7)" fill="#071a26" opacity=".5">
+    <use href="#cloud-left"/><use href="#cloud-right"/><use href="#tower"/>
+  </g>
+  <g fill="#9ac9e5" stroke="#f1eee7" stroke-width="5" stroke-linejoin="round">
+    <use href="#cloud-left"/><use href="#cloud-right"/>
+  </g>
+  <use href="#tower" fill="#5598b7" stroke="#f1eee7" stroke-width="6" stroke-linejoin="round"/>
+  <g clip-path="url(#tower-clip)" stroke-linejoin="round">
+    <path d="M200 49 190 78 186 127 185 304 178 352H222L215 304 214 127 210 78Z" fill="#6baac3"/>
+    <path d="M213 97Q224 188 216 264Q213 325 207 352H230Q221 318 221 274L222 222Q222 177 224 124L220.6 98Z" fill="url(#dots)" opacity=".27"/>
+    <path d="M200 51 190 76 186 127 185 298Q185 329 179 352M200 51 210 76 214 127 215 298Q215 329 221 352" fill="none" stroke="#1c4252" stroke-width="2.8"/>
+    <path d="M194 70 190 130V352M197 62 195 131V352M200 55V352M203 62 205 131V352M206 70 210 130V352" fill="none" stroke="#244a5a" stroke-width="1.25"/>
+    <path d="M192 74H208M191 81H209M190 88H210M187 123H213M186 167H214M186 211H214M185 255H215M185 289H215" fill="none" stroke="#1c4252" stroke-width="2.3"/>
+    <path d="M186 122 178 153 186 188M214 122 222 153 214 188M185 224 179 249 185 280M215 224 221 249 215 280M179 271 185 301 174 352M221 271 215 301 226 352" fill="none" stroke="#1c4252" stroke-width="2.35"/>
+    <path d="M206 58 215 74 220 119" fill="none" stroke="#d5edf0" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <use href="#tower" fill="none" stroke="#173c4c" stroke-width="1.4" stroke-linejoin="round"/>
+</svg>

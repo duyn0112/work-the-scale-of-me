@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-labelledby="tower-title tower-desc" data-real-height-m="420.5" data-subject-height="304">
+  <title id="tower-title">金茂大厦</title>
+  <desc id="tower-desc">按参考照片重绘的金茂大厦，细长塔身由层层退台组成，顶部有塔冠和尖顶，幕墙上有深色竖向玻璃与浅色金属横带。</desc>
+  <defs>
+    <path id="tower" d="M169 352V308H171V255H173V215H175V180H176V155H178V133H181V116H186V104H191V94H196V79H198L200 48 202 79H204V94H209V104H214V116H219V133H222V155H224V180H225V215H227V255H229V308H231V352Z"/>
+    <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.35" fill="#04121a"/></pattern>
+  </defs>
+  <use href="#tower" transform="translate(5 7)" fill="#071a26" opacity=".5"/>
+  <use href="#tower" fill="#788f99" stroke="#f1eee7" stroke-width="4.8" stroke-linejoin="round"/>
+  <path d="M200 92 206 102 216 123 219 158 220 212 224 308 224 352H231V308H229V255H227V215H225V180H224V155H222V133H219V116H214V104H209V94H204V79H202L200 48Z" fill="#536e80"/>
+  <path d="M198 100H202L205 118 207 180 210 352H188L192 180 195 118Z" fill="#b1b9ad"/><g fill="none" stroke="#b6beb2" stroke-width="0.7"><path d="M183.00 126.00H217.00"/><path d="M182.69 129.00H217.31"/><path d="M182.38 132.00H217.62"/><path d="M182.07 135.00H217.93"/><path d="M181.76 138.00H218.24"/><path d="M181.45 141.00H218.55"/><path d="M181.14 144.00H218.86"/><path d="M180.83 147.00H219.17"/><path d="M180.52 150.00H219.48"/><path d="M180.21 153.00H219.79"/><path d="M179.95 156.00H220.05"/><path d="M179.80 159.00H220.20"/><path d="M179.65 162.00H220.35"/><path d="M179.50 165.00H220.50"/><path d="M179.35 168.00H220.65"/><path d="M179.20 171.00H220.80"/><path d="M179.05 174.00H220.95"/><path d="M178.90 177.00H221.10"/><path d="M178.75 180.00H221.25"/><path d="M178.60 183.00H221.40"/><path d="M178.45 186.00H221.55"/><path d="M178.30 189.00H221.70"/><path d="M178.15 192.00H221.85"/><path d="M178.00 195.00H222.00"/><path d="M177.85 198.00H222.15"/><path d="M177.70 201.00H222.30"/><path d="M177.55 204.00H222.45"/><path d="M177.40 207.00H222.60"/><path d="M177.25 210.00H222.75"/><path d="M177.10 213.00H222.90"/><path d="M176.95 216.00H223.05"/><path d="M176.80 219.00H223.20"/><path d="M176.65 222.00H223.35"/><path d="M176.50 225.00H223.50"/><path d="M176.35 228.00H223.65"/><path d="M176.20 231.00H223.80"/><path d="M176.05 234.00H223.95"/><path d="M175.90 237.00H224.10"/><path d="M175.75 240.00H224.25"/><path d="M175.60 243.00H224.40"/><path d="M175.45 246.00H224.55"/><path d="M175.30 249.00H224.70"/><path d="M175.15 252.00H224.85"/><path d="M175.00 255.00H225.00"/><path d="M174.89 258.00H225.11"/><path d="M174.77 261.00H225.23"/><path d="M174.66 264.00H225.34"/><path d="M174.55 267.00H225.45"/><path d="M174.43 270.00H225.57"/><path d="M174.32 273.00H225.68"/><path d="M174.21 276.00H225.79"/><path d="M174.09 279.00H225.91"/><path d="M173.98 282.00H226.02"/><path d="M173.87 285.00H226.13"/><path d="M173.75 288.00H226.25"/><path d="M173.64 291.00H226.36"/><path d="M173.53 294.00H226.47"/><path d="M173.42 297.00H226.58"/><path d="M173.30 300.00H226.70"/><path d="M173.19 303.00H226.81"/><path d="M173.08 306.00H226.92"/><path d="M172.95 309.00H227.05"/><path d="M172.81 312.00H227.19"/><path d="M172.67 315.00H227.33"/><path d="M172.53 318.00H227.47"/><path d="M172.40 321.00H227.60"/><path d="M172.26 324.00H227.74"/><path d="M172.12 327.00H227.88"/><path d="M171.98 330.00H228.02"/><path d="M171.84 333.00H228.16"/><path d="M171.70 336.00H228.30"/><path d="M171.56 339.00H228.44"/><path d="M171.42 342.00H228.58"/><path d="M171.28 345.00H228.72"/><path d="M171.14 348.00H228.86"/></g><g fill="none" stroke="#243e53" stroke-width="1.6">
+    <path d="M177 318H223M175 278H225M178 240H222M179 205H221M182 175H219M182 150H218M187 130H214"/>
+  </g>
+  <g fill="none" stroke="#d4d2b8" stroke-width="1.15">
+    <path d="M170 310H190L200 307 210 310H230M172 256H191L200 253 209 256H228M174 216H191L200 213 209 216H226M176 181H192L200 178 208 181H224M178 156H193L200 153 207 156H222M181 134H194L200 131 206 134H219M186 117H195L200 114 205 117H214"/>
+  </g>
+  <g fill="none" stroke="#344f64" stroke-width=".95">
+    <path d="M177 158 176 350M185 137 184 350M192 118 191 350M200 95V350M208 118 209 350M215 137 217 350M222 158 223 350"/>
+  </g>
+  <path d="M196 99 200 93 204 99M191 108 200 103 209 108M198 79 200 76 202 79" fill="none" stroke="#d9d4bd" stroke-width="1.3"/>
+  <path d="M225 285 229 308 231 352H219Q230 325 225 285Z" fill="url(#dots)" opacity=".25"/>
+  <path d="M200 50V78" stroke="#dae4dd" stroke-width="1.25" stroke-linecap="round"/>
+  <use href="#tower" fill="none" stroke="#f1eee7" stroke-width="4.8" stroke-linejoin="round"/>
+</svg>

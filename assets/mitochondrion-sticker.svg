@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-labelledby="mito-title mito-desc" data-real-length-m="2e-6" data-subject-length="152">
+  <title id="mito-title">线粒体剖面</title>
+  <desc id="mito-desc">线粒体的纵剖面示意，橙褐色外膜内有浅色基质，内膜反复向内折叠形成嵴。图示长度按 2 微米标定。</desc>
+  <defs>
+    <path id="mitochondrion" d="M24 108C24 81 42 66 64 66C85 66 97 54 116 56C147 58 176 78 176 103C176 130 155 144 131 144C109 144 98 133 77 138C50 145 24 133 24 108Z"/>
+    <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.35" fill="#04121a"/>
+    </pattern>
+  </defs>
+
+  <use href="#mitochondrion" transform="translate(4 5)" fill="#071a26" opacity=".5"/>
+  <use href="#mitochondrion" fill="#bd7854" stroke="#f1eee7" stroke-width="3.4" stroke-linejoin="round"/>
+  <path d="M29 108C29 85 46 71 65 71C86 72 100 59 117 62C145 64 171 81 171 104C171 127 153 138 131 138C111 138 99 127 76 133C53 139 29 129 29 108Z" fill="#e6c08e" stroke="#8b503f" stroke-width="1.3"/>
+
+  <path d="M35 102C35 84 49 76 62 77C67 78 64 93 68 105Q71 114 76 106L75 83C84 83 92 71 102 70Q110 68 112 74C114 81 107 91 110 101Q112 110 117 101L121 80Q131 79 137 85C143 91 135 106 140 116Q145 124 148 113L151 94Q165 103 161 114C156 127 143 131 128 130Q116 129 110 125C106 122 106 112 101 109Q95 106 96 117L96 123Q81 121 71 128C65 131 63 116 59 111Q54 107 51 112L53 126C41 124 35 115 35 102Z" fill="#e7d5ac" stroke="#985740" stroke-width="2.1" stroke-linejoin="round"/>
+  <path d="M36 102C36 86 50 77 61 78M80 82 86 80M122 81 128 82M156 104 158 110" fill="none" stroke="#f0e0ba" stroke-width="1.1" stroke-linecap="round"/>
+  <g fill="#b08960">
+    <circle cx="44" cy="101" r="1.25"/><circle cx="49" cy="88" r="1"/>
+    <circle cx="83" cy="108" r="1.2"/><circle cx="92" cy="93" r=".95"/>
+    <circle cx="126" cy="116" r="1.15"/><circle cx="128" cy="99" r="1.3"/>
+    <circle cx="118" cy="121" r="1"/><circle cx="145" cy="129" r="1"/>
+  </g>
+  <path d="M80 92C73 90 77 101 83 99C90 98 87 90 80 92Z M117 108C111 108 115 116 121 114C127 112 123 106 117 108Z" fill="none" stroke="#9c7958" stroke-width="1.2"/>
+  <path d="M158 80C171 91 178 103 172 119C165 139 147 144 131 144Q117 144 110 140C148 145 168 117 158 80Z" fill="url(#dots)" opacity=".26"/>
+  <path d="M39 85Q45 77 53 76" fill="none" stroke="#f3d9ad" stroke-width="1.9" stroke-linecap="round"/>
+  <use href="#mitochondrion" fill="none" stroke="#f1eee7" stroke-width="3.4" stroke-linejoin="round"/>
+</svg>

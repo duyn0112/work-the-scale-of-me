@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 660" width="760" height="660" role="img" aria-labelledby="hairTitle hairDesc" data-real-diameter-mm="0.4">
+  <title id="hairTitle">头发毛囊横截面结构图</title>
+  <desc id="hairDesc">贴纸风格的头发毛囊横截面，标注血管、亨利层、赫胥黎层、外根鞘、内根鞘、玻璃层、毛皮质、毛小皮外层、毛髓质和结缔组织性真皮鞘。</desc>
+  <defs>
+    <filter id="hairSoft" x="-25%" y="-25%" width="150%" height="150%"><feGaussianBlur stdDeviation="8"/></filter>
+    <pattern id="hairCells" width="15" height="15" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="3.2" fill="#c9a6d6" opacity=".8"/>
+    </pattern>
+    <pattern id="hairMed" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="4.2" fill="#d8b46a" opacity=".55"/>
+      <circle cx="14" cy="13" r="2.6" fill="#c99a4f" opacity=".45"/>
+    </pattern>
+    <pattern id="hairDots" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.35" fill="#04121a"/></pattern>
+    <mask id="hairShade"><rect width="760" height="660" fill="#fff"/><circle cx="520" cy="500" r="320" fill="#000"/></mask>
+    <marker id="hairDot" viewBox="0 0 6 6" refX="3" refY="3" markerWidth="4" markerHeight="4"><circle cx="3" cy="3" r="2.2" fill="#1f2d36"/></marker>
+    <path id="hairOuterRing" fill-rule="evenodd" d="M330 88 A232 232 0 1 1 329.9 88 Z M330 104 A216 216 0 1 0 329.9 104 Z"/>
+  </defs>
+
+  <ellipse cx="340" cy="560" rx="230" ry="22" fill="#000" opacity=".18" filter="url(#hairSoft)"/>
+  <circle cx="338" cy="330" r="232" fill="#071a26" opacity=".38" filter="url(#hairSoft)"/>
+
+  <circle cx="330" cy="320" r="232" fill="#e6a0b8" stroke="#f1eee7" stroke-width="7"/>
+  <circle cx="330" cy="320" r="216" fill="#f1eee7"/>
+  <circle cx="330" cy="320" r="212" fill="#f0bfd0"/>
+  <circle cx="330" cy="320" r="198" fill="#c95f86"/>
+  <circle cx="330" cy="320" r="190" fill="#d97a9a"/>
+  <circle cx="330" cy="320" r="182" fill="#f4d7e2"/>
+  <circle cx="330" cy="320" r="176" fill="#9a6aa8"/>
+  <circle cx="330" cy="320" r="176" fill="url(#hairCells)"/>
+  <circle cx="330" cy="320" r="176" fill="none" stroke="#f1eee7" stroke-width="3"/>
+  <circle cx="330" cy="320" r="88" fill="#d8c08a"/>
+  <circle cx="330" cy="320" r="88" fill="url(#hairMed)"/>
+  <circle cx="330" cy="320" r="88" fill="none" stroke="#f1eee7" stroke-width="3"/>
+
+  <g fill="none" stroke="#f1eee7" opacity=".38">
+    <circle cx="330" cy="320" r="205" stroke-width="9" stroke-dasharray="1.5 6"/>
+    <circle cx="330" cy="320" r="194" stroke-width="8" stroke-dasharray="1.5 5"/>
+    <circle cx="330" cy="320" r="186" stroke-width="7" stroke-dasharray="1.5 5"/>
+  </g>
+
+  <g fill="#c95f86" stroke="#f1eee7" stroke-width="2.2">
+    <circle cx="168" cy="184" r="8"/><circle cx="120" cy="284" r="7"/><circle cx="204" cy="470" r="7"/>
+    <circle cx="468" cy="168" r="8"/><circle cx="520" cy="410" r="7"/><circle cx="430" cy="508" r="7"/>
+  </g>
+  <g fill="#e6a0b8" opacity=".8">
+    <circle cx="152" cy="218" r="3"/><circle cx="134" cy="330" r="3"/><circle cx="188" cy="430" r="3"/>
+    <circle cx="494" cy="230" r="3"/><circle cx="500" cy="330" r="3"/><circle cx="452" cy="468" r="3"/>
+  </g>
+
+  <path d="M330 88 A232 232 0 1 1 329.9 88 Z M330 104 A216 216 0 1 0 329.9 104 Z" fill="url(#hairDots)" opacity=".22"/>
+
+  <g font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="16" fill="#1f2d36" letter-spacing=".04em">
+    <g stroke="#1f2d36" stroke-width="1.1" fill="none">
+      <path d="M80 110 L168 184" marker-end="url(#hairDot)"/>
+      <path d="M80 210 L165 243" marker-end="url(#hairDot)"/>
+      <path d="M104 310 L164 275" marker-end="url(#hairDot)"/>
+      <path d="M104 420 L149 386" marker-end="url(#hairDot)"/>
+      <path d="M104 510 L183 389" marker-end="url(#hairDot)"/>
+      <path d="M166 600 L180 470" marker-end="url(#hairDot)"/>
+      <path d="M556 110 L420 257" marker-end="url(#hairDot)"/>
+      <path d="M556 210 L483 279" marker-end="url(#hairDot)"/>
+      <path d="M556 310 L525 372" marker-end="url(#hairDot)"/>
+      <path d="M556 420 L361 346" marker-end="url(#hairDot)"/>
+    </g>
+    <text x="24" y="116">血管</text>
+    <text x="24" y="216">亨利层</text>
+    <text x="24" y="316">赫胥黎层</text>
+    <text x="24" y="426">外根鞘</text>
+    <text x="24" y="516">内根鞘</text>
+    <text x="24" y="606">结缔组织性真皮鞘</text>
+    <text x="560" y="116">毛皮质</text>
+    <text x="560" y="216">毛小皮外层</text>
+    <text x="560" y="316">玻璃层</text>
+    <text x="560" y="426">毛髓质</text>
+  </g>
+
+  <text x="24" y="644" font-family="ui-monospace,monospace" font-size="10" fill="#6f7d78" letter-spacing=".12em">HAIR FOLLICLE · 横截面</text>
+</svg>

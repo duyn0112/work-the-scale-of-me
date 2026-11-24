@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-labelledby="pearl-title pearl-desc" data-real-height-m="468" data-subject-height="304">
+  <title id="pearl-title">东方明珠塔</title>
+  <desc id="pearl-desc">米色塔身托起两颗玫红色观景球，带菱格的主球位于双柱上方，顶部有红色天线帽。</desc>
+  <defs>
+    <path id="base" d="M155 352Q168 332 184 326H216Q232 332 245 352Z"/>
+    <path id="supports" d="M185 213H196L194 331H182Z M204 213H215L218 331H206Z"/>
+    <path id="mast" d="M196 52H204L208 171H192Z"/>
+    <path id="bridges" d="M192 226H208M192 242H208M192 258H208M192 274H208M192 290H208M192 306H208"/>
+    <circle id="main-sphere" cx="200" cy="189" r="29"/>
+    <circle id="upper-sphere" cx="200" cy="101" r="13"/>
+    <rect id="antenna" x="193" y="48" width="14" height="6" rx="1.3"/>
+    <pattern id="lattice" width="10" height="12" patternUnits="userSpaceOnUse">
+      <path d="M-5 6 5-6M0 12 10 0M5 18 15 6M-5 6 5 18M0 0 10 12M5-6 15 6" fill="none" stroke="#f1eee7" stroke-width="1.1" opacity=".74"/>
+    </pattern>
+    <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#04121a"/>
+    </pattern>
+  </defs>
+
+  <g transform="translate(5 7)" fill="#071a26" opacity=".5">
+    <use href="#base"/><use href="#supports"/><use href="#mast"/>
+    <use href="#bridges" fill="none" stroke="#071a26" stroke-width="5"/>
+    <use href="#main-sphere"/><use href="#upper-sphere"/><use href="#antenna"/>
+  </g>
+  <g fill="#d6bd9e" stroke="#f1eee7" stroke-width="6" stroke-linejoin="round">
+    <use href="#mast"/>
+    <use href="#supports"/>
+  </g>
+  <use href="#bridges" fill="none" stroke="#f1eee7" stroke-width="7" stroke-linecap="round"/>
+  <use href="#bridges" fill="none" stroke="#8d4660" stroke-width="3.6" stroke-linecap="round"/>
+  <path d="M189 221 188 322M211 221 212 322" fill="none" stroke="#ae9278" stroke-width="1.3" opacity=".8"/>
+
+  <use href="#base" fill="#d6bd9e" stroke="#f1eee7" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M203 326H216Q232 332 245 352H198Q205 338 203 326Z" fill="url(#dots)" opacity=".25"/>
+  <path d="M163 348H237" stroke="#8d4660" stroke-width="2.4" stroke-dasharray=".1 5.1" stroke-linecap="round"/>
+
+  <use href="#main-sphere" fill="#c76887" stroke="#f1eee7" stroke-width="6"/>
+  <path d="M174.6 203A29 29 0 1 1 225.4 203Z" fill="url(#lattice)"/>
+  <path d="M174.6 203H225.4A29 29 0 0 1 174.6 203Z" fill="#d6bd9e"/>
+  <path d="M175.5 203H224.5" stroke="#8d4660" stroke-width="2.4"/>
+  <path d="M209.9 161.75Q226 187 210 207Q205 215 197 217.84A29 29 0 0 0 209.9 161.75Z" fill="url(#dots)" opacity=".26"/>
+  <use href="#upper-sphere" fill="#c76887" stroke="#f1eee7" stroke-width="5"/>
+  <path d="M188.2 95.5A13 13 0 0 1 211.8 95.5Z M188.2 106.5A13 13 0 0 0 211.8 106.5Z" fill="#d6bd9e"/>
+  <use href="#antenna" fill="#c76887" stroke="#f1eee7" stroke-width="4"/>
+</svg>

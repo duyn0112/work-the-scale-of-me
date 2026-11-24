@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-labelledby="player-title player-desc" data-real-height-m="1.75" data-subject-height="304">
+  <title id="player-title">劳塔罗·马丁内斯</title>
+  <desc id="player-desc">劳塔罗·马丁内斯的全身贴纸插画。他侧头看向右方，穿国际米兰蓝黑条纹球衣、黑色短裤和黑色球袜，左臂佩戴绿色队长袖标。</desc>
+  <defs>
+    <path id="player" d="M184 96L182 83C176 78 175 61 183 54Q190 48 203 48C215 48 226 52 229 60L227 69 227 77 233 85Q235 89 227 91L226 99Q225 107 215 108L215 118 236 126Q246 131 250 144L256 169 253 174 263 201 273 224Q279 231 277 241L275 249Q273 253 270 250L269 241 267 247Q264 250 262 247L260 235 246 213 233 180 228 181 227 207 237 244 233 253 228 263 228 282 237 319 238 333 249 338Q256 342 254 349L249 352H223Q215 352 214 345L213 333 208 310 205 294 198 269 191 247 185 273 176 299 172 333 178 340Q180 345 174 350L160 352H139Q131 352 133 346L140 340 150 334 152 311 152 290 157 267 159 245 155 236 161 202 163 176 156 175 146 190 127 207 118 222 116 231Q113 235 110 230L111 225 104 231Q100 233 98 229L100 221 110 210 129 182 139 171 141 155Q143 140 150 132L170 122 183 117Z"/>
+    <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.35" fill="#04121a"/>
+    </pattern>
+    <path id="shirt" d="M183 117Q196 123 203 129L215 118 236 126Q246 131 250 144L256 169Q247 177 228 181L227 207Q229 214 229 219Q199 228 159 215L161 202 163 176Q153 175 139 171L141 155Q143 140 150 132L170 122Z"/>
+  </defs>
+
+  <use href="#player" transform="translate(6 7)" fill="#071a26" opacity=".5"/>
+  <use href="#player" fill="#ce8b60" stroke="#f1eee7" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M157 166L167 172 156 175 146 190 127 207 118 222 116 231Q113 235 110 230L111 225 104 231Q100 233 98 229L100 221 110 210 129 182 139 171Z" fill="#d6986b"/>
+  <path d="M242 171L253 174 263 201 273 224Q279 231 277 241L275 249Q273 253 270 250L269 241 267 247Q264 250 262 247L260 235 246 213 233 180Z" fill="#b97a55"/>
+  <path d="M242 183Q248 183 252 187M245 191Q251 194 257 193M250 202L259 205M254 211L263 214M258 220L269 223" fill="none" stroke="#69514b" stroke-width="2.3" stroke-linecap="round" opacity=".7"/>
+  <path d="M258 226L272 222 275 231 261 235Z" fill="#ede9d9"/>
+  <path d="M159 245 181 249 185 273 176 299 172 333 151 338 152 311 152 290 157 267Z" fill="#d59669"/>
+  <path d="M210 250 233 247 228 263 228 282 237 319 238 337 216 339 213 333 208 310 205 294 198 269Z" fill="#b97855"/>
+  <path d="M157 269Q168 274 185 273L176 299 172 333 151 338 152 311 152 290Z" fill="#202c43"/>
+  <path d="M205 276Q214 281 228 278V282L237 319 238 337 216 339 213 333 208 310 205 294 201 281Z" fill="#202c43"/>
+  <path d="M156 277Q170 280 182 280M205 286Q216 290 229 286" fill="none" stroke="#3776bd" stroke-width="3"/>
+  <path d="M172 285 167 322M222 293 231 327" fill="none" stroke="#3a5274" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M150 333Q162 336 172 333L178 340Q180 345 174 350L160 352H139Q131 352 133 346L140 340Z M215 333Q228 336 238 333L249 338Q256 342 254 349L249 352H223Q215 352 214 345Z" fill="#b2d8cd"/>
+  <path d="M134 347H158L172 343M219 347H248M142 341L152 343M231 337L243 341" fill="none" stroke="#546d75" stroke-width="2" stroke-linecap="round"/>
+
+  <path d="M160 205Q192 212 227 207L237 244 233 253 228 263Q215 265 199 261L192 243 185 264Q174 267 157 261L159 245 155 236Z" fill="#1c2639"/>
+  <path d="M161 221 157 257 165 259 170 222Z M219 221 227 220 235 247 232 256 228 256Z" fill="#3165a5"/>
+  <path d="M222 220 229 220 236 245 232 253 227 263 212 264Q223 251 222 220Z" fill="url(#dots)" opacity=".6"/>
+  <path d="M214 235 219 232 219 245M224 234Q230 230 230 238T224 246Q220 242 224 234Z" fill="none" stroke="#e3c56b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <use href="#shirt" fill="#202b44"/>
+  <path d="M166 124L174 120Q167 142 168 159L169 217 161 215 163 176 156 175Q154 143 166 124Z M180 122L189 123 197 130Q190 172 192 219L179 218Q177 196 178 166Q177 145 180 122Z M210 123L218 119 224 122Q219 150 215 174Q212 195 216 221L202 221Q200 200 201 177Q203 149 210 123Z M229 124L236 126Q250 132 253 159L255 166 247 170Q240 144 229 131Z" fill="#3269c1"/>
+  <path d="M143 150Q149 137 160 128L165 126Q155 146 153 161L150 174 139 171Z" fill="#3b7acf"/>
+  <path d="M179 119Q188 122 201 132Q208 123 215 118L224 122Q214 131 201 138Q187 128 173 123Z" fill="#182337"/>
+  <path d="M236 165L253 160 256 169 253 174 240 178Z" fill="#b3d578"/>
+  <path d="M241 171 252 167" stroke="#486552" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="213" cy="154" r="5.2" fill="#172039" stroke="#e3c56b" stroke-width="1.65"/>
+  <path d="M211 157V151L215 157V151M171 155Q176 156 180 152" fill="none" stroke="#e3c56b" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M186 155H194V163L190 166 186 163Z" fill="#e6e7d8"/>
+  <path d="M188 156V162M192 156V162" stroke="#69946a" stroke-width="1.35"/>
+  <path d="M172 174H224M181 179H218" stroke="#d9b968" stroke-width="2.65" stroke-linecap="round" opacity=".85"/>
+  <path d="M221 183 228 180 227 207 229 219Q219 222 208 220Q218 200 221 183Z" fill="url(#dots)" opacity=".35"/>
+
+  <path d="M184 96L198 101 215 108 215 118 203 129Q195 123 183 117Z" fill="#ac6c50"/>
+  <path d="M189 63Q199 54 219 60L227 69V77L233 85Q235 89 227 91L226 99Q225 107 215 108L204 108Q192 104 186 93L183 79Z" fill="#d69a70"/>
+  <path d="M201 92Q214 97 223 94L227 92 226 99Q225 107 215 108H204Q197 104 194 98Z" fill="#bc7f5d"/>
+  <path d="M182 83C176 78 175 61 183 54Q190 48 203 48C215 48 226 52 229 60L227 69Q222 67 219 64Q214 60 207 64L198 66Q194 67 194 73L194 82 190 87Z" fill="#382e31"/>
+  <path d="M181 62Q187 53 201 53Q214 52 224 58" fill="none" stroke="#6a4c41" stroke-width="2.3" stroke-linecap="round"/>
+  <path d="M181 71Q187 68 193 69L193 81 189 86 183 82Z" fill="#76554b"/>
+  <path d="M192 81Q184 78 185 86Q186 92 193 94" fill="#d69a70" stroke="#a16752" stroke-width="1.25" stroke-linecap="round"/>
+  <path d="M215 75Q220 72 225 74M221 93Q225 94 227 92" fill="none" stroke="#523637" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M216 78Q221 75.5 225 78Q220 81 216 78Z" fill="#f0dbbb"/>
+  <circle cx="222.1" cy="77.8" r="1.45" fill="#342f36"/>
+  <path d="M227 82L231 86 227 87" fill="none" stroke="#ad7058" stroke-width="1.15" stroke-linecap="round"/>
+
+  <use href="#player" fill="none" stroke="#f1eee7" stroke-width="6" stroke-linejoin="round"/>
+</svg>

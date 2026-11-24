@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-labelledby="art-title art-desc" data-real-height-m="30" data-subject-height="196">
+  <title id="art-title">刘长春体育馆</title>
+  <desc id="art-desc">俯视角度下，两片银白色弧形屋顶之间有一道深色缝隙，前方是弧形玻璃立面与环形台阶。</desc>
+  <defs>
+    <path id="silhouette" d="M48 210C48 193 57 174 70 160L68 137C68 113 107 100 147 96L183 92Q193 92 199 101Q205 92 216 92L247 95C296 99 330 111 331 139L330 160C345 174 352 192 352 210C352 255 286 288 200 288C114 288 48 255 48 210Z"/>
+    <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.35" fill="#04121a"/></pattern>
+    <path id="left-roof" d="M68 137C68 113 107 100 147 96L183 92Q196 92 193 111C190 157 173 199 145 211C120 221 84 193 74 171Q68 153 68 137Z"/>
+    <path id="right-roof" d="M216 92L247 95C296 99 330 111 331 139C333 169 313 191 287 206Q268 218 249 210C224 200 211 163 205 127C201 107 200 92 216 92Z"/>
+    <pattern id="roof-seams" width="4" height="8" patternUnits="userSpaceOnUse">
+      <path d="M0 4H4" stroke="#87989f" stroke-width=".55" opacity=".59"/>
+    </pattern>
+  </defs>
+  <use href="#silhouette" transform="translate(6 8)" fill="#071a26" opacity=".5"/>
+  <use href="#silhouette" fill="#c9cbc9" stroke="#f1eee7" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M48 210C48 170 116 144 200 144C284 144 352 170 352 210C352 255 286 288 200 288C114 288 48 255 48 210Z" fill="#c3c7c1"/>
+  <path d="M59 212C62 251 124 279 200 279C278 279 338 253 342 213M68 216C76 250 129 270 200 270C272 270 319 250 332 217M77 222C92 247 139 261 200 261C261 261 306 249 323 223" fill="none" stroke="#8e9d9d" stroke-width="2.25"/>
+  <path d="M172 255H228L237 285Q200 290 163 285Z" fill="#dce0d8"/>
+  <path d="M170 262H230M168 268H232M166 274H234M164 280H236" stroke="#9ca8a6" stroke-width="1.4"/>
+  <path d="M79 188Q90 220 123 234Q157 255 200 257Q245 257 277 235Q310 219 321 189L302 169H96Z" fill="#52666d"/>
+  <path d="M93 204Q200 255 307 203L297 220Q201 267 104 220Z" fill="#2d434e"/>
+  <path d="M103 212 108 223M128 222 132 234M155 230 157 242M184 234 185 246M215 235 213 246M246 231 243 243M274 221 269 233M296 211 292 222" stroke="#779096" stroke-width="1.9"/>
+  <path d="M109 219C134 197 176 208 184 125Q187 103 199 101Q208 110 216 135C228 178 238 200 286 215Q201 242 109 219Z" fill="#bac5c5"/>
+  <path d="M193 111C191 157 172 200 145 211Q116 221 90 195M205 126C211 163 224 200 249 210Q268 219 287 206" fill="none" stroke="#40565e" stroke-width="7"/>
+  <use href="#left-roof" fill="#e0e3df"/>
+  <use href="#right-roof" fill="#e8e9e2"/>
+  <use href="#left-roof" fill="url(#roof-seams)" opacity=".72"/>
+  <use href="#right-roof" fill="url(#roof-seams)" opacity=".72"/>
+  <path d="M349 207C352 244 293 283 238 285L230 279Q301 261 326 231Z" fill="url(#dots)" opacity=".27"/>
+  <path d="M80 132C89 112 135 104 174 101" fill="none" stroke="#fff7e7" stroke-width="2.7" stroke-linecap="round"/>
+  <use href="#silhouette" fill="none" stroke="#f1eee7" stroke-width="6" stroke-linejoin="round"/>
+</svg>

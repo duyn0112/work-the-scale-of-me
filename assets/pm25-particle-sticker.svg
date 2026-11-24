@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-labelledby="pm-title pm-desc" data-real-aerodynamic-diameter-max-m="2.5e-6" data-reference-diameter="152">
+  <title id="pm-title">PM2.5 颗粒示意</title>
+  <desc id="pm-desc">灰蓝色的粗糙悬浮颗粒，有不规则边缘、颗粒孔洞与附着的细小团块。PM2.5 按空气动力学直径不大于 2.5 微米定义，图示用上限尺寸标定。</desc>
+  <defs>
+    <path id="grain" d="M99 24Q108 26 113 32Q121 26 129 34L133 44Q146 42 151 54L148 64Q159 65 165 76L160 87Q176 94 176 104L169 116Q174 126 164 135L152 137Q154 152 141 155L129 153Q123 168 111 163L101 176Q91 174 86 166Q73 174 66 162L65 153Q50 155 46 143L48 132Q31 132 30 118L35 108Q21 98 25 88L34 80Q30 65 42 60L53 61Q50 45 64 41L75 45Q80 30 89 33Z"/>
+    <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.35" fill="#04121a"/></pattern>
+  </defs>
+
+  <use href="#grain" transform="translate(4 5)" fill="#071a26" opacity=".5"/>
+  <use href="#grain" fill="#738693" stroke="#f1eee7" stroke-width="3.4" stroke-linejoin="round"/>
+  <path d="M103 35 123 43 134 61 132 78 150 94 145 117 153 139 134 151 110 148 96 164 77 154 60 133 52 113 38 96 53 73 66 63 84 67Z" fill="#899da5"/>
+  <path d="M155 78 160 87Q176 94 176 104L169 116Q174 126 164 135L152 137Q154 152 141 155L129 153Q123 168 111 163L101 176Q95 175 92 171C122 158 150 128 155 78Z" fill="#536775"/>
+  <path d="M155 78 160 87Q176 94 176 104L169 116Q174 126 164 135L152 137Q154 152 141 155L129 153Q123 168 111 163L101 176Q95 175 92 171C122 158 150 128 155 78Z" fill="url(#dots)" opacity=".28"/>
+
+  <g fill="#465969" stroke="#a6b4b7" stroke-width="1.2">
+    <path d="M64 72 72 64 81 68 81 77 73 82 65 79Z"/>
+    <path d="M111 56 120 54 125 61 121 69 113 68Z"/>
+    <path d="M87 100 97 93 106 100 102 111 91 114 85 108Z"/>
+    <path d="M53 110 60 105 68 110 65 119 57 120Z"/>
+    <path d="M119 123 129 118 135 127 132 137 122 135Z"/>
+  </g>
+  <g fill="#a2b1b3">
+    <circle cx="102" cy="49" r="2.6"/><circle cx="54" cy="89" r="3.1"/>
+    <circle cx="103" cy="79" r="2.4"/><circle cx="140" cy="90" r="3.3"/>
+    <circle cx="75" cy="131" r="3.2"/><circle cx="93" cy="144" r="2.7"/>
+    <circle cx="148" cy="118" r="2.4"/><circle cx="115" cy="147" r="1.8"/>
+  </g>
+  <path d="M87 55 97 61 94 70M117 86 125 94 120 102M78 114 75 121 84 128M104 127 109 132" fill="none" stroke="#526a78" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M57 58Q59 51 66 51M84 45 89 42" stroke="#c9d2ce" stroke-width="2.2" stroke-linecap="round"/>
+  <use href="#grain" fill="none" stroke="#f1eee7" stroke-width="3.4" stroke-linejoin="round"/>
+</svg>

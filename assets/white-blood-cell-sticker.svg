@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400" width="400" height="400" role="img" aria-labelledby="wbcTitle wbcDesc" data-real-diameter-um="15" data-subject-diameter="280">
+  <title id="wbcTitle">White blood cell sticker</title>
+  <desc id="wbcDesc">Sticker-comic white blood cell with a pale granular cytoplasm, a multi-lobed purple nucleus and a cream outline.</desc>
+  <defs>
+    <path id="cut" d="M200 52 C250 52 292 76 314 114 C338 152 340 198 326 238 C312 278 280 308 242 320 C206 332 164 328 132 306 C98 282 74 244 68 200 C62 154 82 108 116 82 C140 62 170 52 200 52 Z"/>
+    <clipPath id="clip"><use href="#cut" xlink:href="#cut"/></clipPath>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="8"/></filter>
+    <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="#04121a"/></pattern>
+    <mask id="shade"><rect width="400" height="400" fill="#fff"/><circle cx="140" cy="120" r="320" fill="#000"/></mask>
+  </defs>
+
+  <use href="#cut" xlink:href="#cut" transform="translate(5 7)" fill="#04121a" opacity=".42" filter="url(#soft)"/>
+
+  <g clip-path="url(#clip)">
+    <use href="#cut" xlink:href="#cut" fill="#e6edf0"/>
+    <ellipse cx="180" cy="170" rx="110" ry="120" fill="#f1f5f6" opacity=".8"/>
+    <path d="M70 210 C86 266 136 314 200 320 C264 326 316 286 330 226 C318 284 270 312 200 304 C134 296 92 270 70 210 Z" fill="#c8d6dc" opacity=".7"/>
+
+    <g fill="#c3d2d8">
+      <circle cx="112" cy="150" r="6"/><circle cx="128" cy="122" r="4"/><circle cx="150" cy="106" r="5"/>
+      <circle cx="268" cy="112" r="5"/><circle cx="290" cy="142" r="6"/><circle cx="304" cy="180" r="4"/>
+      <circle cx="286" cy="226" r="5"/><circle cx="256" cy="258" r="6"/><circle cx="214" cy="282" r="4"/>
+      <circle cx="170" cy="280" r="5"/><circle cx="126" cy="252" r="4"/><circle cx="102" cy="208" r="5"/>
+      <circle cx="248" cy="150" r="3.5"/><circle cx="136" cy="196" r="3.5"/><circle cx="230" cy="232" r="3.5"/>
+    </g>
+    <g fill="#aebfc6" opacity=".8">
+      <circle cx="140" cy="142" r="3"/><circle cx="272" cy="186" r="3"/><circle cx="206" cy="112" r="3"/>
+      <circle cx="232" cy="276" r="3"/><circle cx="110" cy="178" r="3"/>
+    </g>
+
+    <path d="M148 168 C134 150 150 128 172 134 C188 116 218 122 224 144 C248 144 260 168 246 186 C260 204 246 226 226 226 C220 248 194 254 180 236 C158 244 138 228 144 208 C130 196 134 178 148 168 Z" fill="#8c79a4"/>
+    <path d="M158 172 C150 160 162 148 176 152 C188 142 208 148 212 162 C226 164 232 178 222 188 C232 198 224 212 210 212 C206 226 190 230 182 218 C168 224 156 214 160 202 C152 194 152 180 158 172 Z" fill="#a797ba"/>
+    <circle cx="196" cy="188" r="13" fill="#6d5b86"/>
+    <g fill="none" stroke="#75628e" stroke-width="2" opacity=".55">
+      <path d="M166 180 C176 174 184 178 186 186"/>
+      <path d="M208 198 C216 204 220 198 226 194"/>
+      <path d="M178 204 C184 210 192 212 198 208"/>
+    </g>
+
+    <rect width="400" height="400" fill="url(#dots)" opacity=".22" mask="url(#shade)"/>
+  </g>
+
+  <use href="#cut" xlink:href="#cut" fill="none" stroke="#f1eee7" stroke-width="6"/>
+</svg>

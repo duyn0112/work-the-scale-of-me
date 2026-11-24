@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-labelledby="art-title art-desc" data-real-length-m="58.4" data-subject-length="304" data-real-core-diameter-m="3.35">
+  <title id="art-title">长征二号F运载火箭</title>
+  <desc id="art-desc">长征二号F的外观示意，顶端为逃逸塔，下方依次为整流罩、白色箭体及并联助推器。</desc>
+  <defs>
+    <path id="silhouette" d="M200 48 203 55V114L205 126V142L211.5 163V199L208.72 211V248L214 240 219.5 252 222.5 268V344L225 352H175L177.5 344V268L180.5 252 186 240 191.28 248V211L188.5 199V163L195 142V126L197 114V55Z"/>
+    <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.35" fill="#04121a"/></pattern>
+  </defs>
+  <use href="#silhouette" transform="translate(6 8)" fill="#071a26" opacity=".5"/>
+  <use href="#silhouette" fill="#e1e0d5" stroke="#f1eee7" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M200 48 203 55V114L205 126V142L211.5 163V199L208.72 211V345L211 352H189L191.28 345V211L188.5 199V163L195 142V126L197 114V55Z" fill="#e7e7dd"/>
+  <path d="M200 153L211.5 163V199L208.72 211V345L211 352H200Z" fill="#a9bcc4"/>
+  <path d="M195 131H205V143L208 151H192L195 143Z" fill="#b84c4d"/>
+  <path d="M196 105H204V112H196Z M189 174H211V181H189Z M191.28 231H208.72V238H191.28Z" fill="#4d7596"/>
+  <path d="M192 185H199V195H192Z" fill="#c34c4a"/>
+  <path d="M193.5 187H195" stroke="#eed497" stroke-width="1.65" stroke-linecap="round"/>
+  <path d="M191.28 269H208.72M191.28 303H208.72M191.28 331H208.72" stroke="#4f6575" stroke-width="1.6"/>
+  <path d="M175 352 177.5 344V268L180.5 252 186 240 191.28 249 193 268V345L194 352Z" fill="#d7dfdb"/>
+  <path d="M206 352 207 344V269L209 252 214 240 219.5 252 222.5 268V344L225 352Z" fill="#b6c9cb"/>
+  <path d="M178 278H193V286H178Z M207 278H222V286H207Z" fill="#477697"/>
+  <path d="M190 258H192V346H189Z M219 257 222 268V343H220Z" fill="#839ba6"/>
+  <path d="M213 267 222 264V344L225 352H210Q214 339 213 267Z" fill="url(#dots)" opacity=".27"/>
+  <path d="M179 342H192M208 342H222M194 341H206" stroke="#506579" stroke-width="2"/>
+  <path d="M193 166V173M195 184V226" stroke="#fff5df" stroke-width="1.7" stroke-linecap="round"/>
+  <use href="#silhouette" fill="none" stroke="#f1eee7" stroke-width="6" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="13.27402 -44.35815 900 1455.92359" role="img" aria-labelledby="title desc" data-real-height-m="1.6">
+  <title id="title">奶蛙大笑</title>
+  <desc id="desc">黄色奶蛙弯起眼睛，张嘴大笑，双手抱着浅米色的肚皮。</desc>
+  <defs>
+    <linearGradient id="tail" x2=".82" y2="1">
+      <stop stop-color="#dca346"/>
+      <stop offset="1" stop-color="#896036"/>
+    </linearGradient>
+    <linearGradient id="farLeg" x1=".05" y1=".2" x2=".78" y2=".83">
+      <stop stop-color="#e9b743"/>
+      <stop offset=".53" stop-color="#c38226"/>
+      <stop offset="1" stop-color="#764719"/>
+    </linearGradient>
+    <linearGradient id="nearLeg" x1=".3" y1="0" x2=".67" y2="1">
+      <stop stop-color="#e3a633"/>
+      <stop offset=".43" stop-color="#f3c44f"/>
+      <stop offset=".72" stop-color="#d89728"/>
+      <stop offset="1" stop-color="#694117"/>
+    </linearGradient>
+    <linearGradient id="foot" x1=".46" y1="0" x2=".62" y2="1">
+      <stop stop-color="#946127"/>
+      <stop offset=".55" stop-color="#896331"/>
+      <stop offset="1" stop-color="#483426"/>
+    </linearGradient>
+    <linearGradient id="body" x1=".31" y1=".07" x2=".68" y2=".96">
+      <stop stop-color="#fae66d"/>
+      <stop offset=".29" stop-color="#e7ab36"/>
+      <stop offset=".58" stop-color="#f7c951"/>
+      <stop offset=".85" stop-color="#e8a636"/>
+      <stop offset="1" stop-color="#c47a25"/>
+    </linearGradient>
+    <radialGradient id="shoulder" cx=".76" cy=".24" r=".65" gradientTransform="translate(0 .05) scale(1 .8)">
+      <stop stop-color="#fff089" stop-opacity=".78"/>
+      <stop offset="1" stop-color="#fff089" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="belly" cx=".34" cy=".28" r=".77">
+      <stop stop-color="#f7e2b3"/>
+      <stop offset=".72" stop-color="#ebd0a0"/>
+      <stop offset="1" stop-color="#c89663"/>
+    </radialGradient>
+    <linearGradient id="leftArm" x1=".07" y1=".24" x2=".89" y2=".57">
+      <stop stop-color="#ffdb61"/>
+      <stop offset=".68" stop-color="#efb43d"/>
+      <stop offset="1" stop-color="#b57029"/>
+    </linearGradient>
+    <linearGradient id="rightArm" x1=".57" y1=".14" x2=".29" y2=".96">
+      <stop stop-color="#f8cf58"/>
+      <stop offset=".49" stop-color="#edb240"/>
+      <stop offset=".72" stop-color="#f9c750"/>
+      <stop offset="1" stop-color="#c8852f"/>
+    </linearGradient>
+    <linearGradient id="hand" x1=".35" y1=".04" x2=".7" y2="1">
+      <stop stop-color="#a08155"/>
+      <stop offset=".54" stop-color="#7e6240"/>
+      <stop offset="1" stop-color="#52402e"/>
+    </linearGradient>
+    <linearGradient id="head" x1=".35" y1="0" x2=".59" y2=".98">
+      <stop stop-color="#fff07e"/>
+      <stop offset=".47" stop-color="#f4c448"/>
+      <stop offset=".77" stop-color="#e7a837"/>
+      <stop offset="1" stop-color="#d5902d"/>
+    </linearGradient>
+    <radialGradient id="cheek">
+      <stop stop-color="#b36c27" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#c48227" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mouth" x1=".33" y1=".24" x2=".75" y2="1">
+      <stop stop-color="#1e1011"/>
+      <stop offset=".63" stop-color="#251014"/>
+      <stop offset="1" stop-color="#692b28"/>
+    </linearGradient>
+    <linearGradient id="teeth" x2=".08" y2="1">
+      <stop stop-color="#fff6e6"/>
+      <stop offset="1" stop-color="#d2b8a9"/>
+    </linearGradient>
+    <path id="trunk" d="M178 284C132 226 99 200 112 166C139 82 190 17 285 16C374 12 411 61 470 111C533 158 634 171 708 237C785 302 805 390 814 516C816 559 839 604 852 650C881 747 864 845 830 915C789 999 690 1011 603 1008C528 1017 460 1014 403 998C308 975 269 939 231 891C198 850 182 798 141 769C91 728 59 680 61 598C60 528 90 447 121 390C141 350 161 323 184 303Z"/>
+    <path id="jawline" d="M166 260C210 263 283 238 329 219C348 211 354 228 354 264C358 311 336 354 301 379C275 398 253 389 229 364C207 342 183 299 166 260Z"/>
+    <clipPath id="mouthClip"><use href="#jawline"/></clipPath>
+  </defs>
+  <g id="subject">
+    <!-- Tail and far leg -->
+    <path fill="url(#tail)" d="M794 882C824 889 858 905 865 933C859 957 809 969 772 977L757 943Z"/>
+    <path fill="url(#farLeg)" d="M251 894C278 885 382 912 454 998C432 1022 395 1040 371 1060C380 1098 371 1140 384 1169C356 1185 327 1181 309 1153C275 1122 245 1100 220 1060C192 1011 217 964 251 894Z"/>
+    <path fill="url(#foot)" d="M308 1146C329 1157 352 1160 377 1150C380 1190 415 1175 425 1205C428 1219 421 1227 407 1229C338 1241 249 1249 187 1252C178 1253 174 1250 172 1243C150 1248 133 1240 135 1228C139 1197 177 1198 211 1189C249 1177 285 1171 308 1146Z"/>
+    <path fill="none" stroke="#4d3724" stroke-width="6" stroke-linecap="round" d="M178 1209Q154 1213 148 1232M203 1218Q181 1228 174 1239"/>
+    <!-- Body and cream belly -->
+    <use href="#trunk" fill="url(#body)"/>
+    <use href="#trunk" fill="url(#shoulder)"/>
+    <path fill="url(#belly)" d="M194 555C226 496 278 481 345 489C425 494 505 512 559 535C625 562 657 624 654 709C657 810 605 870 530 896C464 920 381 915 313 885C257 858 216 822 194 765C172 707 168 608 194 555Z"/>
+    <path fill="#ba6c25" opacity=".3" d="M175 437C198 456 207 497 199 534C192 569 190 617 202 702L182 719L146 575Z"/>
+    <path fill="url(#leftArm)" d="M173 430C190 450 197 490 192 531C187 555 183 572 185 597C189 643 182 682 203 711C218 731 220 756 190 778C160 801 136 773 108 747C65 707 56 650 61 598C64 536 91 464 117 418C132 393 152 398 173 430Z"/>
+    <path fill="#9a5e29" opacity=".28" d="M72 572C110 551 156 547 185 569L184 590C159 564 112 562 72 572Z"/>
+    <!-- Near leg overlaps the body at the hip -->
+    <path fill="url(#nearLeg)" d="M600 900C633 858 730 848 784 891C814 915 804 950 784 985C763 1024 755 1059 741 1094C758 1135 745 1174 747 1216C724 1235 700 1243 675 1224C645 1189 616 1171 591 1129C571 1096 564 1051 566 1004C563 964 574 930 600 900Z"/>
+    <path fill="url(#foot)" d="M675 1213C694 1226 722 1229 748 1214C755 1248 783 1261 772 1294C766 1312 751 1326 741 1339C729 1354 704 1352 692 1341C681 1352 650 1353 633 1350C617 1348 614 1343 616 1334C600 1345 582 1347 571 1340C554 1332 563 1310 581 1294C608 1271 652 1249 675 1213Z"/>
+    <path fill="none" stroke="#4d3724" stroke-linecap="round" stroke-width="7" d="M620 1313Q613 1327 616 1335M691 1319Q685 1332 692 1341M642 1317Q651 1318 659 1317"/>
+    <!-- Arms curve back across the belly -->
+    <path fill="#9f5a25" opacity=".27" d="M575 436C550 472 558 543 582 571C546 586 511 628 477 678L435 739L504 789C622 750 717 692 759 622C776 599 798 552 795 493C767 539 717 527 690 491Z"/>
+    <path fill="url(#rightArm)" d="M589 416C631 385 722 404 770 448C820 495 800 581 772 633C732 710 652 764 568 791C523 807 475 832 429 828C403 818 394 790 405 757C418 722 454 695 479 664C517 617 545 584 600 568C571 549 551 507 563 457C569 435 580 423 589 416Z"/>
+    <path d="M567 460C566 507 580 546 603 565C623 565 648 571 662 580" fill="none" stroke="#a46727" stroke-width="7" stroke-linecap="round" opacity=".48"/>
+    <path fill="url(#hand)" d="M174 757C183 722 210 711 228 699C243 687 256 688 263 699C273 717 246 723 245 735C246 748 273 754 290 764C309 775 306 794 290 796C312 812 309 827 297 829C307 843 299 854 289 853C289 868 278 874 264 869C248 864 220 844 202 827C181 809 169 780 174 757Z"/>
+    <path fill="url(#hand)" d="M434 710C406 718 371 702 353 693C338 687 325 695 327 708C328 723 358 728 361 737C362 749 333 759 311 769C293 776 293 790 305 798C287 809 290 829 305 831C298 842 304 855 318 854C331 853 340 848 349 845C339 858 338 870 349 873C363 877 386 860 408 852C433 842 457 827 468 810C443 799 426 753 434 710Z"/>
+    <path fill="none" stroke="#513d29" stroke-width="7" stroke-linecap="round" opacity=".76" d="M229 776Q252 793 279 796M226 801Q251 820 282 827M233 828Q254 848 271 853M305 799Q322 793 333 789M305 832Q324 825 343 817M345 850Q356 842 365 838"/>
+    <!-- Bent head, closed eyes and open laugh -->
+    <path fill="url(#head)" d="M113 157C139 84 190 17 285 16C354 13 396 37 439 81C481 126 521 146 559 165C527 226 472 313 429 357C391 398 344 432 298 423C249 416 214 378 184 328C152 275 92 198 113 157Z"/>
+    <ellipse cx="360" cy="177" rx="113" ry="93" fill="url(#cheek)" transform="rotate(-17 360 177)"/>
+    <ellipse cx="163" cy="218" rx="49" ry="57" fill="url(#cheek)" transform="rotate(-28 163 218)"/>
+    <path fill="#754723" opacity=".55" d="M111 177C126 163 152 174 162 192C140 184 126 182 110 186ZM262 166C281 132 324 118 359 129L365 140C316 141 286 153 262 172Z"/>
+    <path fill="#2e1b17" d="M111 176C130 172 148 180 157 191C140 185 125 183 110 185ZM266 166C283 136 325 123 353 131C357 132 360 134 361 138C321 137 292 155 266 172Z"/>
+    <path d="M269 146C290 119 328 109 354 119" fill="none" stroke="#ffe276" stroke-width="10" stroke-linecap="round" opacity=".65"/>
+    <path d="M162 256C207 263 283 237 331 216C350 209 357 233 357 267" fill="none" stroke="#ac6729" stroke-width="8" stroke-linecap="round"/>
+    <use href="#jawline" fill="url(#mouth)" stroke="#794320" stroke-width="5"/>
+    <g clip-path="url(#mouthClip)">
+      <path fill="url(#teeth)" d="M189 256C241 252 292 232 334 217L329 229Q326 236 320 234Q320 246 311 248Q304 255 298 247Q296 260 284 260L278 256Q274 264 265 265L255 264Q248 270 238 270L228 268Q220 273 212 271L207 268Q198 271 189 256Z"/>
+      <path fill="#602628" d="M232 363C255 328 298 321 329 315C333 346 306 383 271 390Z"/>
+      <path fill="#8f4140" d="M242 366C261 350 283 348 301 342C303 355 291 368 274 375C259 377 249 374 242 366Z"/>
+      <path fill="#a38983" d="M256 298C244 310 241 330 245 343C247 328 259 310 256 298Z"/>
+      <path fill="url(#teeth)" d="M247 337C252 353 259 360 275 355C291 351 305 341 309 332C309 320 323 305 335 293C333 310 326 322 318 331C315 343 307 352 296 357C278 368 257 376 247 356C243 348 239 343 247 337Z"/>
+    </g>
+  </g>
+</svg>

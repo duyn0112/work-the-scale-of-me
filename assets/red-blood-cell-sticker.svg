@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400" width="400" height="400" role="img" aria-labelledby="rbcTitle rbcDesc" data-real-diameter-um="8" data-subject-diameter="288">
+  <title id="rbcTitle">Red blood cell sticker</title>
+  <desc id="rbcDesc">Sticker-comic red blood cell shown as a biconcave disc with a cream outline and halftone shading.</desc>
+  <defs>
+    <path id="cut" d="M200 96 C286 96 344 138 344 198 C344 246 306 282 252 296 C234 301 216 302 200 302 C184 302 166 301 148 296 C94 282 56 246 56 198 C56 138 114 96 200 96 Z"/>
+    <clipPath id="clip"><use href="#cut" xlink:href="#cut"/></clipPath>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="8"/></filter>
+    <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="#04121a"/></pattern>
+    <mask id="shade"><rect width="400" height="400" fill="#fff"/><circle cx="140" cy="120" r="320" fill="#000"/></mask>
+  </defs>
+
+  <use href="#cut" xlink:href="#cut" transform="translate(5 7)" fill="#04121a" opacity=".42" filter="url(#soft)"/>
+
+  <g clip-path="url(#clip)">
+    <use href="#cut" xlink:href="#cut" fill="#a83c34"/>
+    <ellipse cx="200" cy="184" rx="136" ry="84" fill="#cf5348"/>
+    <ellipse cx="200" cy="184" rx="136" ry="84" fill="none" stroke="#b4463d" stroke-width="2"/>
+    <ellipse cx="200" cy="188" rx="64" ry="38" fill="#e69387"/>
+    <ellipse cx="200" cy="190" rx="40" ry="23" fill="#edb1a7"/>
+    <ellipse cx="152" cy="146" rx="42" ry="22" transform="rotate(-14 152 146)" fill="#f3c2b8" opacity=".5"/>
+    <path d="M56 214 C82 266 136 294 200 294 C264 294 318 266 344 214 C330 262 274 290 200 290 C126 290 70 262 56 214 Z" fill="#8e2f29" opacity=".55"/>
+    <rect width="400" height="400" fill="url(#dots)" opacity=".22" mask="url(#shade)"/>
+  </g>
+
+  <use href="#cut" xlink:href="#cut" fill="none" stroke="#f1eee7" stroke-width="6"/>
+</svg>

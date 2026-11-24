@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-labelledby="art-title art-desc" data-real-pitch-m="5e-5" data-subject-width="152">
+  <title id="art-title">屏幕像素点</title>
+  <desc id="art-desc">单个屏幕像素的放大示意，包含红、绿、蓝三条发光子像素。</desc>
+  <defs>
+    <path id="silhouette" d="M45 24H155Q176 24 176 45V155Q176 176 155 176H45Q24 176 24 155V45Q24 24 45 24Z"/>
+    <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.35" fill="#04121a"/></pattern>
+  </defs>
+  <use href="#silhouette" transform="translate(4 5)" fill="#071a26" opacity=".5"/>
+  <use href="#silhouette" fill="#283652" stroke="#f1eee7" stroke-width="3.4" stroke-linejoin="round"/>
+  <rect x="34" y="34" width="132" height="132" rx="15" fill="#14263c" stroke="#465777" stroke-width="1.8"/>
+  <g>
+    <rect x="44" y="47" width="32" height="106" rx="10" fill="#dd5473"/>
+    <rect x="84" y="47" width="32" height="106" rx="10" fill="#53c69a"/>
+    <rect x="124" y="47" width="32" height="106" rx="10" fill="#528dff"/>
+    <path d="M52 58V142M92 58V142M132 58V142" stroke="#f1eee7" stroke-width="3" opacity=".42" stroke-linecap="round"/>
+    <path d="M45 120H155M45 126H155M45 132H155M45 138H155" stroke="#203552" stroke-width="1.4" opacity=".25"/>
+  </g>
+  <path d="M164 111Q174 149 163 163Q154 175 119 175Q155 159 164 111Z" fill="url(#dots)" opacity=".28"/>
+  <path d="M36 50Q36 36 51 36H76" fill="none" stroke="#96b9d2" stroke-width="2" stroke-linecap="round"/>
+  <use href="#silhouette" fill="none" stroke="#f1eee7" stroke-width="3.4" stroke-linejoin="round"/>
+</svg>

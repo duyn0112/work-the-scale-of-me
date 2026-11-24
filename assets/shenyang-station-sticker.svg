@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 300" width="400" height="300" role="img" aria-labelledby="stTitle stDesc" data-reference-width-m="12.25" data-subject-width="110">
+  <title id="stTitle">Shenyang Railway Station sticker</title>
+  <desc id="stDesc">Sticker-comic style east station building with a red brick facade, white clock pavilion, cream stone trim and a large red arched roof.</desc>
+  <defs>
+    <path id="cut" d="M16 288 L16 216 C48 118 116 60 200 52 C284 60 352 118 384 216 L384 288 Z"/>
+    <clipPath id="clip"><use href="#cut" xlink:href="#cut"/></clipPath>
+    <filter id="soft" x="-20%" y="-25%" width="140%" height="160%"><feGaussianBlur stdDeviation="7"/></filter>
+    <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="#04121a"/></pattern>
+    <mask id="shade"><rect width="400" height="300" fill="#fff"/><circle cx="130" cy="100" r="300" fill="#000"/></mask>
+  </defs>
+
+  <use href="#cut" xlink:href="#cut" transform="translate(5 7)" fill="#04121a" opacity=".45" filter="url(#soft)"/>
+
+  <path d="M16 288 L16 216 C48 118 116 60 200 52 C284 60 352 118 384 216 L384 288 Z" fill="#9d3f3b"/>
+
+  <g clip-path="url(#clip)">
+    <g stroke="#7c2e2b" stroke-width="2" opacity=".55">
+      <path d="M56 210 V90"/><path d="M80 210 V78"/><path d="M104 210 V70"/><path d="M128 210 V64"/><path d="M152 210 V60"/><path d="M176 210 V56"/><path d="M200 210 V54"/><path d="M224 210 V56"/><path d="M248 210 V60"/><path d="M272 210 V64"/><path d="M296 210 V70"/><path d="M320 210 V78"/><path d="M344 210 V90"/>
+    </g>
+    <g stroke="#e0c7b6" stroke-width="1.2" opacity=".28">
+      <path d="M68 210 V84"/><path d="M116 210 V67"/><path d="M164 210 V58"/><path d="M236 210 V58"/><path d="M284 210 V67"/><path d="M332 210 V84"/>
+    </g>
+
+    <text x="200" y="94" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-weight="700" font-size="30" letter-spacing="3" fill="#d65a4f" stroke="#f1eee7" stroke-width="1" paint-order="stroke">沈阳站</text>
+    <text x="200" y="106" text-anchor="middle" font-family="ui-monospace,monospace" font-size="5" letter-spacing="1.1" fill="#e8c9ba">SHENYANG RAILWAY STATION</text>
+
+    <rect x="16" y="196" width="368" height="92" fill="#b55348"/>
+    <rect x="16" y="196" width="368" height="10" fill="#e9e4d8"/>
+    <rect x="16" y="236" width="368" height="5" fill="#e9e4d8"/>
+    <rect x="16" y="280" width="368" height="8" fill="#e9e4d8"/>
+    <g stroke="#a94a40" stroke-width=".8" opacity=".5">
+      <path d="M16 214 H384"/><path d="M16 226 H384"/><path d="M16 254 H384"/><path d="M16 266 H384"/><path d="M16 274 H384"/>
+    </g>
+
+    <g fill="#2c3338" stroke="#e9e4d8" stroke-width="2">
+      <path d="M38 234 V218 Q51 202 64 218 V234 Z"/>
+      <path d="M78 234 V218 Q91 202 104 218 V234 Z"/>
+      <path d="M118 234 V218 Q131 202 144 218 V234 Z"/>
+      <path d="M256 234 V218 Q269 202 282 218 V234 Z"/>
+      <path d="M296 234 V218 Q309 202 322 218 V234 Z"/>
+      <path d="M336 234 V218 Q349 202 362 218 V234 Z"/>
+    </g>
+    <g fill="#2c3338" stroke="#e9e4d8" stroke-width="1.6">
+      <rect x="38" y="248" width="26" height="24"/>
+      <rect x="78" y="248" width="26" height="24"/>
+      <rect x="118" y="248" width="26" height="24"/>
+      <rect x="256" y="248" width="26" height="24"/>
+      <rect x="296" y="248" width="26" height="24"/>
+      <rect x="336" y="248" width="26" height="24"/>
+    </g>
+    <g fill="#e9e4d8">
+      <rect x="34" y="272" width="34" height="3"/>
+      <rect x="74" y="272" width="34" height="3"/>
+      <rect x="114" y="272" width="34" height="3"/>
+      <rect x="252" y="272" width="34" height="3"/>
+      <rect x="292" y="272" width="34" height="3"/>
+      <rect x="332" y="272" width="34" height="3"/>
+    </g>
+
+    <rect x="145" y="152" width="110" height="136" fill="#ece7db"/>
+    <rect x="245" y="152" width="10" height="136" fill="#d8d2c4"/>
+    <path d="M133 156 L200 118 L267 156 Z" fill="#f2efe6" stroke="#d8d2c4" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M150 154 L200 126 L250 154 Z" fill="none" stroke="#d8d2c4" stroke-width="1.5"/>
+
+    <circle cx="200" cy="176" r="21" fill="#f8f5ec" stroke="#3b3b39" stroke-width="3"/>
+    <circle cx="200" cy="176" r="17.5" fill="none" stroke="#c9c3b5" stroke-width="1"/>
+    <g stroke="#2b2b29" stroke-width="2" stroke-linecap="round">
+      <path d="M200 159 V162"/><path d="M217 176 H214"/><path d="M200 193 V190"/><path d="M183 176 H186"/>
+      <path d="M200 176 L193 164"/><path d="M200 176 L209 164"/>
+    </g>
+    <circle cx="200" cy="176" r="2" fill="#2b2b29"/>
+
+    <g fill="#2c3338" stroke="#e9e4d8" stroke-width="1.6">
+      <rect x="154" y="206" width="18" height="30"/>
+      <rect x="228" y="206" width="18" height="30"/>
+    </g>
+
+    <rect x="164" y="240" width="72" height="12" rx="2" fill="#2f4f6e" stroke="#1f3a52" stroke-width="1"/>
+    <text x="201" y="248.5" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="6.5" fill="#f1eee7" letter-spacing="1">进站口</text>
+    <path d="M171 244 L175 246 L171 248" fill="none" stroke="#f1eee7" stroke-width="1.2" stroke-linecap="round"/>
+
+    <path d="M176 288 V260 Q200 240 224 260 V288 Z" fill="#232a2f" stroke="#e9e4d8" stroke-width="2.5"/>
+    <path d="M200 252 V288" stroke="#3a4248" stroke-width="1.5"/>
+    <g stroke="#d8b479" stroke-width="1.4" stroke-linecap="round">
+      <path d="M194 274 H197"/><path d="M203 274 H206"/>
+    </g>
+
+    <g fill="#e9e4d8">
+      <rect x="148" y="152" width="5" height="136"/>
+      <rect x="247" y="152" width="5" height="136"/>
+    </g>
+    <rect x="160" y="284" width="80" height="4" fill="#e9e4d8"/>
+
+    <path d="M16 288 H384" stroke="#c9c3b5" stroke-width="2"/>
+    <rect width="400" height="300" fill="url(#dots)" opacity=".22" mask="url(#shade)"/>
+  </g>
+
+  <use href="#cut" xlink:href="#cut" fill="none" stroke="#f1eee7" stroke-width="6"/>
+</svg>

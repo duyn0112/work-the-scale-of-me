@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-labelledby="art-title art-desc" data-real-height-m="60" data-subject-height="116">
+  <title id="art-title">盛京大剧院</title>
+  <desc id="art-desc">从浑河一侧看去，盛京大剧院有宽扁的钻石轮廓，银蓝色多面玻璃屋顶覆盖深色玻璃幕墙。</desc>
+  <defs>
+    <path id="silhouette" d="M48 225 71 194 93 176 132 166 213 142 285 147 330 163 352 195 335 230 321 258 67 258Z"/>
+    <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.35" fill="#04121a"/></pattern>
+    <pattern id="glazing" width="14" height="12" patternUnits="userSpaceOnUse">
+      <path d="M0 0H14M-7 12 0 0 7 12 14 0 21 12" fill="none" stroke="#edf2f0" stroke-width=".8"/>
+    </pattern>
+  </defs>
+  <use href="#silhouette" transform="translate(6 8)" fill="#071a26" opacity=".5"/>
+  <use href="#silhouette" fill="#a4bed2" stroke="#f1eee7" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M48 225 93 176 133 177 122 217Z" fill="#7f9db7"/>
+  <path d="M93 176 132 166 213 142 285 147 242 169 133 177Z" fill="#bad0dc"/>
+  <path d="M133 177 242 169 268 238 122 217Z" fill="#9eb7cb"/>
+  <path d="M242 169 285 147 330 163 352 195 268 238Z" fill="#adc2d3"/>
+  <path d="M48 225 122 217 268 238 352 195 335 230 321 258 67 258Z" fill="#3f606c"/>
+  <path d="M48 225 122 217 160 258H67Z" fill="#466e76"/>
+  <path d="M122 217 268 238 303 258H160Z" fill="#658999"/>
+  <path d="M268 238 352 195 335 230 321 258H303Z" fill="#496976"/>
+  <path d="M48 225 71 194 93 176 132 166 213 142 285 147 330 163 352 195 268 238 122 217Z" fill="url(#glazing)" opacity=".48"/>
+  <path d="M67 232V255M83 228V257M102 226V258M122 219V258M144 223V258M167 227V258M191 229V258M216 233V258M242 235V258M268 238V258M287 228V258M309 218V258M330 209V236" stroke="#90aeb1" stroke-width="1.25" opacity=".65"/>
+  <path d="M48 225 122 217 268 238 352 195M93 176 133 177 242 169 330 163M213 142 242 169 268 238M133 177 122 217" fill="none" stroke="#d6e4ea" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M352 197 335 230 321 258H235Q301 243 322 218Z" fill="url(#dots)" opacity=".28"/>
+  <use href="#silhouette" fill="none" stroke="#f1eee7" stroke-width="6" stroke-linejoin="round"/>
+</svg>
